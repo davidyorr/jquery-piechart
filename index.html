@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jquery-piechart-demo</title>
+    <style>
+        #content {
+            width: 980px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="chart"></div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="jquery.piechart.js"></script>
+    <script>
+        var settings = {
+            borderWidth:    3,
+            height:         420,
+            colors:         $.fn.piechart.colorSchemes.EASTER,
+            labels:         ["Broccoli", "Pizza", "Snickers", "Hot dogs", "Spaghetti"],
+            percentages:    [ 10,         40,      55,         82,         100 ],
+            showLegend:     true,
+            title:          'Favorite Foods',
+            titleJustify:   'left'
+        };
+        $("#chart").piechart(settings);
+    </script>
+</body>
+</html>
