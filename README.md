@@ -4,4 +4,4 @@ jQuery Piecharts
 Demo
 ----
 
-View a demo [here](https://raw.github.com/davidyorr/jquery-piechart/master/index.html).
+View a demo [here](https://rawgithub.com/davidyorr/jquery-piechart/master/index.html).
